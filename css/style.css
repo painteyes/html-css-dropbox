@@ -5,7 +5,8 @@
     box-sizing: border-box;
     
     /* TEST  */
-S}
+    border: 1px red solid;
+}
 
 /* COMMON */
 body{
@@ -33,7 +34,6 @@ img {
     line-height: normal;
     font-size: small;
     text-decoration: none;
-    margin: 1% 0;
 }
 .btn-blue{
     background-color: #0061ff;
@@ -96,13 +96,11 @@ nav li:hover{
     float: left; 
     text-align: left;
     width: 50%;
-
 }
 .nav-menu-right{
     float: right; 
     text-align: right;
     width: 50%;
-
 }
 
 /* Signup */
@@ -118,17 +116,14 @@ nav li:hover{
 /* Jumbotron */
 .jumbotron{
     background-color: #b5d0e7;
-    /* padding-top: 150px;
-    margin-bottom: 200px; */
 }
 .jumbo-container{
     width: 85%;
-    margin: auto;
-    padding-top: 70px;
+    margin: 70px auto;
 }
 .jumbo-container h2{
     font-size: 50px;
-    padding-top: 70px; 
+    padding-top: 60px; 
     padding-bottom: 40px;
 }
 .jumbo-container p{
@@ -139,13 +134,24 @@ nav li:hover{
 }
 .jumbo-right{
     width: 65%;
-    padding-left: 5%;
+    padding-left: 4%;
+}
+.jumbo-right img{
+    vertical-align: middle;
+    position:relative;
+    top: 50px;
 }
 .jumbo-left :first-child{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .jumbo-left :last-child{
-    padding-top: 20px;
+    margin-top: 20px;
     font-size: xx-large;
 }
+
+.jumbo-left :nth-child(3){
+    margin-top: 5px;
+}
+
+
 
