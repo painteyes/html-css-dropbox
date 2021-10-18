@@ -116,11 +116,12 @@ nav li:hover{
 /* Jumbotron */
 .jumbotron{
     background-color: #b5d0e7;
+    margin-top: 70px;
 }
 .jumbo-container{
     width: 85%;
-    height: 500px;
-    margin: 70px auto 5%;
+    margin:auto;
+    
 }
 .jumbo-container h2{
     font-size: 50px;
@@ -136,6 +137,7 @@ nav li:hover{
 .jumbo-right{
     width: 65%;
     padding-left: 4%;
+    margin-bottom: -5%;
 }
 .jumbo-right img{
     vertical-align: middle;
