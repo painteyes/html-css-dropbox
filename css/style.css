@@ -3,32 +3,149 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    /* TEST  */
+S}
+
+/* COMMON */
+body{
     font-family: 'Open Sans',sans-serif;
-    border: 1px solid red;
 }
 
-/* Clearfix */
+/* Images */
+img {
+    width: 100%;
+}
+
+/* Columns */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-} 
+}
+.column{
+    float: left;
+}
 
+/* Buttons */
+.button{
+    display: inline-block;
+    line-height: normal;
+    font-size: small;
+    text-decoration: none;
+    margin: 1% 0;
+}
+.btn-blue{
+    background-color: #0061ff;
+    color: white;
+}
+.btn-blue:hover{
+    background-color: #3c84ff;
+}
+.btn-regular{
+    padding: 5px 15px;
+}
+.btn-wide{
+    padding: 5px 30px;
+}
+.btn-ultrawide{
+    padding: 5px 50px;
+}
+
+/* HEADER */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    line-height: 70px;
+    font-size: small;
+    
+}
+nav li{
+    display: inline-block;
+    padding: 0 15px;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none; 
+    color: black;  
+}
+nav li:hover{
+    border-bottom: 2px solid black;
+}
+
+/* Logo */
+.logo{
+    width: 12%;
+}
 .logo-img{
     vertical-align: middle;
+    padding-left: 10%;
+    max-width: 150px;
 }
 
-.col{
-    display: inline-block;
+/* Menù */
+.nav-menu{
+    width: 80%;
+}
+.nav-menu-left{ 
+    float: left; 
+    text-align: left;
+    width: 50%;
+
+}
+.nav-menu-right{
+    float: right; 
+    text-align: right;
+    width: 50%;
+
 }
 
-.top-menu-left li, .top-menu-right li{
-    display: inline-block;
+/* Signup */
+.nav-signup{
+    width: 8%;
+    /* min-width: 80px; */
+    text-align: center;
 }
 
 
-.top-menu-left, .top-menu-right {
-    display: inline-block;
-} 
+/* MAIN */
 
+/* Jumbotron */
+.jumbotron{
+    background-color: #b5d0e7;
+    /* padding-top: 150px;
+    margin-bottom: 200px; */
+}
+.jumbo-container{
+    width: 85%;
+    margin: auto;
+    padding-top: 70px;
+}
+.jumbo-container h2{
+    font-size: 50px;
+    padding-top: 70px; 
+    padding-bottom: 40px;
+}
+.jumbo-container p{
+    font-size: small;
+}
+.jumbo-left{
+    width: 35%;
+}
+.jumbo-right{
+    width: 65%;
+    padding-left: 5%;
+}
+.jumbo-left :first-child{
+    padding-bottom: 20px;
+}
+.jumbo-left :last-child{
+    padding-top: 20px;
+    font-size: xx-large;
+}
 
