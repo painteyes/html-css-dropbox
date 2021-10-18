@@ -119,11 +119,12 @@ nav li:hover{
 }
 .jumbo-container{
     width: 85%;
-    margin: 70px auto;
+    height: 500px;
+    margin: 70px auto 5%;
 }
 .jumbo-container h2{
     font-size: 50px;
-    padding-top: 60px; 
+    padding-top: 50px; 
     padding-bottom: 40px;
 }
 .jumbo-container p{
@@ -138,8 +139,6 @@ nav li:hover{
 }
 .jumbo-right img{
     vertical-align: middle;
-    position:relative;
-    top: 50px;
 }
 .jumbo-left :first-child{
     margin-bottom: 20px;
@@ -148,7 +147,6 @@ nav li:hover{
     margin-top: 20px;
     font-size: xx-large;
 }
-
 .jumbo-left :nth-child(3){
     margin-top: 5px;
 }
