@@ -354,11 +354,24 @@ nav li:hover{
 }
 .references-left-top, .references-left-bottom, .references-right-top, .references-right-bottom{
     height: 50%;
+    /* margin: auto; */
 }
 .references-logo{
     width: 50%; 
     height: 100%; 
-    padding: 10%;
+    position: relative;
+
 }
 
+.references-logo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 25%;
+}
+
+.references-text{
+    padding: 4%;
+}
 
