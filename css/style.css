@@ -5,7 +5,7 @@
     box-sizing: border-box;
     
     /* TEST  */
-    /* border: 1px red solid;  */
+    border: 1px red solid;
 }
 
 /* COMMON */
@@ -185,6 +185,9 @@ nav li:hover{
 /* Plans */
 .sub-plan li{
     list-style-type: none;
+}
+.sub-plan .column{
+    min-height: 900px;
 }
 .plan-type-name{
     text-align: center;
