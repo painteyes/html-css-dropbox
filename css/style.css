@@ -260,7 +260,7 @@ nav li:hover{
 /* Enterprise subscription  */
 .sub-bottom{
     width: 100%;
-    margin: 40px 0;
+    margin-top: 40px;
     border: 1px solid lightgray;
 }
 .sub-bottom .sub-type{
