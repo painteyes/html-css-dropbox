@@ -166,7 +166,7 @@ nav li:hover{
     font-size: xx-large;
 }
 .billing-type{ 
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 40px;
 }
 .billing-type :nth-child(2){
@@ -192,7 +192,7 @@ nav li:hover{
     list-style-type: none;
 }
 .sub-plan .column{
-    min-height: 900px;
+    min-height: 1000px;
 }
 .sub-left, .sub-right, .sub-center{
     width: 30%;
@@ -209,6 +209,9 @@ nav li:hover{
 .sub-description{
     padding: 30px 20px;
 }
+.sub-type{
+    height: 80px;
+}
 .sub-type h3{
     margin-bottom: 15px;
 }
@@ -216,7 +219,7 @@ nav li:hover{
     color: grey;
 }
 .sub-price, .sub-period{
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
 }
 .sub-main-spec{
@@ -283,7 +286,7 @@ nav li:hover{
 
 /* Find a partner */
 .find-partner{
-    margin: 70px 0;
+    margin: 90px 0;
 }
 .find-partner img{
     float: left;
@@ -292,7 +295,7 @@ nav li:hover{
 .find-partner .partner-info{
     float: right;
     width: 50%;
-    padding: 3% 0 0 4%;
+    padding: 2% 0 0 4%;
 }
 .find-partner p{
     font-size: small;
@@ -329,10 +332,10 @@ nav li:hover{
 
 /* References */
 .references{
-    margin: 70px 0 25px;
+    margin: 90px 0 25px;
 }
 .references h3{
-    font-size: ;
+    font-size: 25px ;
     margin-bottom: 25px;
 }
 .references a{
