@@ -243,8 +243,8 @@ nav li:hover{
 }
 .delineator{
     display: inline-block;
-    width: 40px;
-    border-bottom: 2px solid gray;
+    width: 30px;
+    border-bottom: 2px solid lightgray;
 }
 .sub-minor-features{
     margin: 40px 0;
@@ -371,17 +371,25 @@ nav li:hover{
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 25%;
+    filter: invert();
 }
 
 .references-center{
     height: 100%;
     background-color: #f5f5f5 ;
+    padding: 25px;
+    
 }
 
 .references-text{
-    padding: 4%;
+    font-size: small;
+    
 }
-.references-text img{
+.references-text p{
+    margin: 25px 0;
+}
+
+.references-center img{
     width: 100px;
 }
 
