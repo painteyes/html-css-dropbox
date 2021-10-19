@@ -355,6 +355,7 @@ nav li:hover{
 .references-left-top, .references-left-bottom, .references-right-top, .references-right-bottom{
     height: 50%;
     /* margin: auto; */
+    overflow:hidden;
 }
 .references-logo{
     width: 50%; 
@@ -362,7 +363,6 @@ nav li:hover{
     position: relative;
 
 }
-
 .references-logo img{
     position: absolute;
     top: 50%;
@@ -370,8 +370,35 @@ nav li:hover{
     transform: translate(-50%,-50%);
     padding: 25%;
 }
-
 .references-text{
     padding: 4%;
 }
+.references-text img{
+    width: 100px;
+}
 
+.brand-logo-1{
+    background-color: #a2d39b ;
+    border: 6px solid #d0e9cd ;
+}
+.brand-logo-2{
+    background-color: #61082b;
+}
+.brand-logo-3{
+   background-color: #0093ce; 
+}
+.brand-logo-4{
+   background-color: #ff1c1c; 
+}
+.brand-logo-5{
+    background-color: #d5001f;
+}
+.brand-logo-6{
+    background-color: #b4d0e7;
+}
+.brand-logo-7{
+    background-color: #0d2481;
+}
+.brand-logo-8{
+    background-color: #ffd830;
+}
