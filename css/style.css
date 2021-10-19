@@ -213,9 +213,9 @@ nav li:hover{
 }
 .sub-type .sub-period{
     color: grey;
-    font-size: 12px; 
 }
 .sub-price, .sub-period{
+    font-size: 12px;
     font-weight: bold;
 }
 .sub-main-spec{
@@ -267,7 +267,7 @@ nav li:hover{
     width: 68%;
     margin-right: 4%;
 }
-.sub-bottom .sub-type h5{
+.sub-bottom .sub-type h6{
     margin: 15px 0 20px;
 }
 .sub-bottom .sub-type p{
@@ -282,7 +282,7 @@ nav li:hover{
 
 /* Find a partner */
 .find-partner{
-    margin: 60px 0;
+    margin: 70px 0;
 }
 .find-partner img{
     float: left;
@@ -297,3 +297,32 @@ nav li:hover{
     font-size: small;
     margin: 15px 0;
 }
+
+/* Advantages */
+.advantages h3{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.advantages p{
+    font-size: small;
+    margin-top: 15px;
+}
+.advantages-info{
+    width: calc(97% / 3);
+}
+.advantages-info img{
+    vertical-align: middle;
+}
+.advantages-row{
+    margin: 40px 0 60px;
+}
+.advantages-row :nth-child(1){
+    margin-right: 1%;
+}
+.advantages-row :nth-child(2){
+    margin-right: 1%x;
+}
+.advantages-row :last-child{
+    margin-left: 1%;
+}
+
