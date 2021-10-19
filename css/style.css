@@ -13,6 +13,7 @@ body{
     font-family: 'Open Sans',sans-serif;
 }
 
+
 /* Images */
 img {
     width: 100%;
@@ -116,6 +117,10 @@ nav li:hover{
 
 
 /* MAIN */
+.container{
+    width: 70%;
+    margin: 12% auto 0;
+}
 
 /* Jumbotron */
 .jumbo{
@@ -157,11 +162,7 @@ nav li:hover{
 }
 
 /* Subscription */
-.sub-container{
-    width: 70%;
-    margin: 12% auto 0;
-}
-.sub-container h2{
+.container h2{
     font-size: xx-large;
 }
 .billing-type{ 
@@ -300,7 +301,6 @@ nav li:hover{
 
 /* Advantages */
 .advantages h3{
-    font-size: 23px;
     margin-bottom: 15px;
 }
 .advantages p{
@@ -314,15 +314,51 @@ nav li:hover{
     vertical-align: middle;
 }
 .advantages-row{
-    margin: 40px 0 60px;
+    margin-top: 40px;
 }
 .advantages-row :nth-child(1){
     margin-right: 1%;
 }
 .advantages-row :nth-child(2){
-    margin-right: 1%x;
+    margin: 0 0.5%;
+
 }
 .advantages-row :last-child{
     margin-left: 1%;
 }
+
+/* References */
+.references{
+    margin: 70px 0;
+}
+.references h3{
+    font-size: ;
+    margin-bottom: 25px;
+}
+.references a{
+    color: #0061ff;
+    font-size: small;
+    display: inline-block;
+    margin-bottom: 25px;    
+}
+.references-row{
+    width: 100%;
+    height: 300px;
+}
+.references-left, .references-right {
+    width: 30%;
+    height: 100%;  
+}
+.references-center{
+    width: 40%;
+}
+.references-left-top, .references-left-bottom, .references-right-top, .references-right-bottom{
+    height: 50%;
+}
+.references-logo{
+    width: 50%; 
+    height: 100%; 
+    padding: 10%;
+}
+
 
