@@ -5,7 +5,7 @@
     box-sizing: border-box;
     
     /* TEST  */
-    border: 1px red solid;
+    /* border: 1px red solid;  */
 }
 
 /* COMMON */
@@ -200,14 +200,16 @@ nav li:hover{
 .sub-registration{
     font-size: small;
 }
-.sub-registration :last-child{
-    display: inline-block; 
-    margin-top: 3px ;
+.sub-registration{
+    margin: 20px 0;
 }
-.sub-type :first-child{
+.sub-registration .buy-now {
+    margin-top: 20px ;
+}
+.sub-type h3{
     margin-bottom: 15px;
 }
-.sub-type :last-child{
+.sub-type .sub-period{
     color: grey;
     font-size: 12px; 
 }
@@ -223,14 +225,7 @@ nav li:hover{
 .buy-link{
     color: #0061ff;
 }
-.sub-plan column{
-    width: 30%;
-    border: 1px solid #d6d6d8;
-    height: 800px;
-}
-.sub-registration{
-    margin: 20px 0;
-}
+
 .delineator{
     display: inline-block;
     width: 40px;
@@ -249,18 +244,30 @@ nav li:hover{
 .minor-features-list i {
     color: #0464ff;
 }
-.sub-left, .sub-right, .sub-center{
+.sub-left, .sub-right, .sub-center, .sub-bottom{
     width: 30%;
+    border: 1px solid lightgray;
 }
 .sub-center{
     margin: 0 5%;
 }
-
-
-
-
-
-
-
-
-
+.sub-bottom{
+    width: 100%;
+    margin: 50px 0;
+}
+.sub-bottom .sub-type{
+    display: inline-block;
+    width: 69%;
+}
+.sub-bottom .sub-type h5{
+    margin: 15px 0 20px;
+}
+.sub-bottom .sub-type p{
+    font-size: small;
+}
+.custom-plan-request{
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+    vertical-align: top;
+}
