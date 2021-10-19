@@ -5,7 +5,7 @@
     box-sizing: border-box;
     
     /* TEST  */
-    border: 1px red solid;
+    border: 1px red solid; 
 }
 
 /* COMMON */
@@ -42,6 +42,11 @@ img {
 .btn-blue:hover{
     background-color: #3c84ff;
 }
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 .btn-regular{
     padding: 5px 15px;
 }
@@ -63,7 +68,6 @@ nav{
     background-color: white;
     line-height: 70px;
     font-size: small;
-    
 }
 nav li{
     display: inline-block;
@@ -189,6 +193,13 @@ nav li:hover{
 .sub-plan .column{
     min-height: 900px;
 }
+.sub-left, .sub-right, .sub-center{
+    width: 30%;
+    border: 1px solid lightgray;
+}
+.sub-center{
+    margin: 0 5%;
+}
 .plan-type-name{
     text-align: center;
     border-bottom: 1px solid #d6d6d8;
@@ -197,18 +208,6 @@ nav li:hover{
 .sub-description{
     padding: 30px 20px;
 }
-.sub-main-spec{
-    font-size: small;
-}
-.sub-registration{
-    font-size: small;
-}
-.sub-registration{
-    margin: 20px 0;
-}
-.sub-registration .buy-now {
-    margin-top: 20px ;
-}
 .sub-type h3{
     margin-bottom: 15px;
 }
@@ -216,19 +215,28 @@ nav li:hover{
     color: grey;
     font-size: 12px; 
 }
+.sub-price, .sub-period{
+    font-weight: bold;
+}
+.sub-main-spec{
+    font-size: small;
+}
 .sub-main-spec {
     margin: 40px 0 40px; 
 }
 .sub-main-spec li {
     padding: 5px 0;
 }
-.sub-price, .sub-period{
-    font-weight: bold;
+.sub-registration{
+    font-size: small;
+    margin: 20px 0;
 }
-.buy-link{
+.sub-registration .buy-now {
+    margin-top: 20px ;
+}
+.sub-registration .buy-link{
     color: #0061ff;
 }
-
 .delineator{
     display: inline-block;
     width: 40px;
@@ -247,20 +255,17 @@ nav li:hover{
 .minor-features-list i {
     color: #0464ff;
 }
-.sub-left, .sub-right, .sub-center, .sub-bottom{
-    width: 30%;
-    border: 1px solid lightgray;
-}
-.sub-center{
-    margin: 0 5%;
-}
+
+/* Enterprise subscription  */
 .sub-bottom{
     width: 100%;
-    margin: 50px 0;
+    margin: 40px 0;
+    border: 1px solid lightgray;
 }
 .sub-bottom .sub-type{
     display: inline-block;
-    width: 69%;
+    width: 68%;
+    margin-right: 4%;
 }
 .sub-bottom .sub-type h5{
     margin: 15px 0 20px;
@@ -270,7 +275,25 @@ nav li:hover{
 }
 .custom-plan-request{
     display: inline-block;
-    width: 29%;
+    width: 26%;
     text-align: center;
     vertical-align: top;
+}
+
+/* Find a partner */
+.find-partner{
+    margin: 60px 0;
+}
+.find-partner img{
+    float: left;
+    width: 50%;
+}
+.find-partner .partner-info{
+    float: right;
+    width: 50%;
+    padding: 3% 0 0 4%;
+}
+.find-partner p{
+    font-size: small;
+    margin: 15px 0;
 }
